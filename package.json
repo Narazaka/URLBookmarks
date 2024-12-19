@@ -1,0 +1,17 @@
+{
+  "name": "net.narazaka.vrchat.url-bookmarks",
+  "version": "1.0.0",
+  "displayName": "URL Bookmarks",
+  "description": "Simple URL bookmarks UI",
+  "author": {
+    "name": "Narazaka",
+    "url": "https://github.com/Narazaka"
+  },
+  "license": "Zlib",
+  "type": "tool",
+  "url" : "https://github.com/Narazaka/URLBookmarks.git",
+  "unity": "2022.3",
+  "vpmDependencies": {
+    "com.vrchat.worlds": ">=3.7.0"
+  }
+}
