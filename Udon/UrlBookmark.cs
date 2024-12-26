@@ -24,7 +24,10 @@ namespace Narazaka.VRChat.UrlBookmarks
             {
                 if (_Url == value) return;
                 _Url = value;
-                InputField.SetUrl(value);
+                if (Networking.IsOwner(gameObject))
+                {
+                    InputField.SetUrl(value);
+                }
             }
         }
 
